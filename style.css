@@ -1,0 +1,138 @@
+* {
+    font-family: sans-serif;
+  }
+
+h2, h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: comic sans ms;
+    color: #2E8B57;
+  }
+
+p, h4, img {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+    
+    li.dropdown {
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        }
+        
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+        
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+form {
+    padding-left: 10%;
+    margin:auto;
+}
+        
+.search {
+    padding:8px 15px;  
+    background: #f0f8ff; 
+    width: 82%;
+    border-radius: 5px;
+    border:2px solid #008080;              
+} 
+            
+.button {
+    position:relative; 
+    left:-4px; 
+    padding:10px 15px;  
+    border-radius: 5px; 
+    border:0px solid #008080; 
+    background-color: #2E8B57; 
+    color:#fafafa; 
+    font-weight:bold;
+}              
+
+.button:hover {
+    background: #e9ec07;
+    color:#fafafa;
+} 
+         
+.button:active {
+    background:#9ACD32;
+}                 
+
+.container1{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.container {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contact {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 30px;
+}
